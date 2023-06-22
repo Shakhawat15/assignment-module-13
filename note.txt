@@ -1,3 +1,7 @@
 Website Netlify Deployed Link:
 ====================
 https://tiny-pudding-8decc4.netlify.app/
+
+Website Github Deployed Link:
+====================
+https://shakhawat15.github.io/assignment-module-13/
