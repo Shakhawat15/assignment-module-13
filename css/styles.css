@@ -1,0 +1,71 @@
+/*Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap');
+
+/*Basic Style*/
+:root {
+    --lg-font: 'Kaisei Tokumin', serif;
+    --sm-font: 'Poppins', sans-serif;
+}
+
+*, p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--sm-font);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--lg-font);
+}
+
+/*Brand section*/
+#brand a img {
+    opacity: .5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+#brand a img:hover {
+    opacity: 1;
+}
+
+/*Banner Section */
+.baner-area h2{
+    letter-spacing: 2px;
+}
+.baner-area h4{
+    color: #222;
+}
+.baner-area a{
+    position: relative;
+    font-size: 12px;
+    color: #222;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.baner-area a:hover{
+    color: #888;
+}
+.baner-area a::after{
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    background: #222;
+    bottom: -5px;
+    content: "";
+    left: 0;
+    transition: .3s;
+}
+.baner-area a:hover:after{
+    background: #888;
+}
+
+/*Footer Section*/
+.copyright-area, .subscribe-area {
+    border-top: 1px solid #3e3e3e;
+}
